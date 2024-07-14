@@ -1,0 +1,5 @@
+{
+  "createTable": "CREATE TABLE IF NOT EXISTS Students (StudentID int, FirstName varchar(255), StudentGroup varchar(255), City varchar(255))",
+  "insertData": "INSERT INTO Students (StudentID, FirstName, StudentGroup, City) VALUES (1, 'Ivan', '02-2022', 'Barcelona'), (2, 'Maria', '03-2022', 'Tokyo'), (3, 'Andrey', '02-2023', 'Milan'), (4, 'James', '02-2023', 'New York'), (5, 'Anna', '02-2023', 'Budapest')",
+  "deleteTable": "DROP TABLE IF EXISTS Students"
+}

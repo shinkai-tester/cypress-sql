@@ -1,0 +1,25 @@
+{
+  "name": "cypress-sql",
+  "version": "1.0.0",
+  "description": "Test Data preparation using Cypress and SQL DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinkai-tester/cypress-sql.git"
+  },
+  "author": "Aleksandra Klimantova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinkai-tester/cypress-sql/issues"
+  },
+  "homepage": "https://github.com/shinkai-tester/cypress-sql#readme",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
